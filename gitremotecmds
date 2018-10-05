@@ -9,4 +9,6 @@ git remote add git https://github.com/bankyo/git.git
 git remote rename
 git remove, rm
 
-git fetch https://github.com/bankyo/gittrain.git
+git fetch origin
+
+git push --all - specify username bankyo pw wEm-9TV-FYu-oX6
