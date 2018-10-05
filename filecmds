@@ -1,0 +1,69 @@
+git help - help commands and check command syntax
+git help branch - git manual opens the help manual on branch command
+git branch --help
+man git branch
+
+
+touch (filename) - create new file
+
+open (filename) - for editing within default shell editor
+
+git blame (file_name) - shows all changes along with the name of the user (very impt cmd)
+git diff (filename) - shows changes in a single file compared to the last Commit
+git diff --staged - shows file differences between staging and the last file version.
+
+git add (file name) - add the current changes to the file to staging.
+git add . - add the whole directory changes to staging (no delete? files)
+git add -A - add all new, modified and deleted files to staging.
+
+git commit -m “(message)” - commits the changes with a custom message.
+git commit -am “(message)” - adds all changes to staging and commits them with a custom message.
+
+git rm (file_name) - removes the file and untracks (stop tracking) it.
+git rm –cached (file_name) - untracks the current file.
+
+git mv  (file_name) (new_file_name) - changes the filename and prepare it for Commit.
+
+git checkout <deleted file name> - recovers the deleted file and prepares it for Commit
+
+git status - shows the status of the modified files
+
+git ls-files –other –ignored –exclude-standard - shows the list of all ignored files
+
+git-checkout - Switch branches or restore working tree files
+git-reset - Reset current HEAD to the specified state
+git-log -p - Show commit logs
+git log -oneline - Shows the list of Commits with a simple message
+git log --follow (file_name) - list the history for the current file
+git blame (file_name) - shows all changes along with the name of the user
+
+git-stash - stash the changes in a dirty working directory away
+git stash list - list the stash entries that you currently have e.g.  stash@{0} is the latest entry,
+           stash@{1} is the one before, etc
+git stash show - show the changes recorded in the stash entry as a diff between the
+           stashed contents and the commit back when the stash entry was first
+           created
+git stash apply - like pop, but do not remove the state from the stash list
+git stash pop - remove a single stashed state from the stash list and apply it on
+           top of the current working tree state
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

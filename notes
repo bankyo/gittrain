@@ -1,0 +1,29 @@
+To learn git, learn bash
+Learn how to write useful scripts 
+Practice the commands in the gitcmd.txt - organise commands according to functions
+
+5/10/18 work done
+Cloned remote directory on GitHub to Documents folder (crptwriter and GitHub-pages-with-jekyll). Run from the Documents folder
+git clone https://github.com/bankyo/crptwriter.git and https://github.com/bankyo/github-pages-with-jekyll.git
+Can get some great hands-on practice working on these remote directories.
+Note that these directories were already cloned into the GitHub folder using the GitHub desktop
+
+NOTES
+        1. Git User's Manual
+           git-htmldocs/user-manual.html
+
+        2. Git concepts chapter of the user-manual
+           git-htmldocs/user-manual.html#git-concepts
+
+        3. howto
+           git-htmldocs/howto-index.html
+
+        4. Git API documentation
+           git-htmldocs/technical/api-index.html
+
+        5. git@vger.kernel.org
+           mailto:git@vger.kernel.org
+
+        6. git-security@googlegroups.com
+           mailto:git-security@googlegroups.com
+

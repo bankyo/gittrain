@@ -1,0 +1,253 @@
+defaults write com.apple.screencapture location ~/Documents/New Screenshots
+killall SystemUIServer
+ls -l
+cd documents
+cd "Selling your car"
+cd ..
+cd "user pictures"
+ls -a
+cd desktop
+ls -a | more
+pwd
+cal
+calendar
+mkdir maccmds
+mkdir bankytest
+edit textwrangler.txt
+edit documents/textwrangler.txt
+rm /home/user/-filename
+rm ./-filename
+man edit
+cd /users ; exit;
+cd /applications
+cd /users/bankyogedengbe
+lsof
+open cv-buzzwords.docx
+rmdir maccmds
+whoami
+/users/bankyogedengbe/desktop/onedrive/documents/cv
+cd /users/bankyogedengbe/desktop/onedrive/documents/cv
+stat cv-2016.docx
+stat help
+man stat
+cd [application scripts]
+cd /library
+ls documents | wc -l
+wc -l
+du
+open IMG-20150531-WA0001.jpg 
+save
+cp
+cp cv-2016.docx cv-2016.txt
+open cv-2016.txt
+edit cv-2016.txt
+edit cv-2016.rtf
+man mv
+mv -f usefulcommands indexOfCommonAppleOXcommands
+mv -f usefulcommands.txt indexOfCommonAppleOXcommands.txt
+edit indexOfCommonAppleOXcommands.txt
+ls -l
+man pwd
+man ls
+ls -t
+man ls
+man cd
+man pwd
+man mkdir
+man rmdir
+man rm
+man touch
+man edit
+man open
+man cp
+man mv
+man awk
+vi
+cp indexOfCommonAppleOXcommands.txt /users/bankyogedengbe/onedrive/documents
+cd /users/bankyogedengbe/onedrive/documents
+ls -t -p
+open EE_Movie_290216-1316.mp4
+open ../LoladeWorkHistory.docx
+cd ../alibaba
+edit 110Pcs+Battery+Cases estimated selling price.xlsx
+open 110Pcs+Battery+Cases estimated selling price.xlsx
+man rm
+man mv
+mv /users/bankyogedengbe/documents/programmingpathway codepathway
+cd users/bankyogedengbe
+mv ProgrammingPathway.txt codePathway
+ls codePathway
+ls ProgrammingPathway.txt
+edit codepathway
+man close
+man for
+man kill
+man killall
+man rsync
+man wc
+man curl
+ls /documents | wc -l
+ls | wc -l
+cd documents
+ls | wc -l
+df -h /
+top
+last -l $USER
+last
+curl -O http://www.academicintegrity.org/icai/assets/FVProject.pdf
+mv FVProject.pdf $HOME/Desktop
+cd /
+cd home
+cd /users
+cd bankyogedengbe
+cd desktop
+man touch
+man open
+open FVProject.pdf
+ipconfig getifaddr en1
+ipconfig
+man ipconfig
+ipconfig getifaddr
+ipconfig getifaddr en1
+clear
+echo My name is $USER
+echo $HOME
+info bash
+MYVAR=3
+echo $MYVAR
+printenv
+echo $PATH
+ls -@
+ls -lh
+open B0000108
+open B0004582.mp3
+close B0004582.mp3
+open B0004190.xml
+cd ..
+ls
+mv bankyogedengbe bankyogedengbebkp
+cp -a bankyogedengbe bankyogedengbebkp
+cp *.xmp ../bankyogedengbe-bkp
+cd ../bankyogedengbe-bkp
+ls
+cd ..
+ls
+rmdir bankyogedengbe-bkp
+cd bankyogedengbe
+mv *.xmp ../bankyogedengbe-bkp
+mv *.xml ../bankyogedengbe-bkp
+mv B00* ../bankyogedengbe-bkp
+mv macFolderStructure.graphml documents/
+open j0149014.jpg
+open 'summary thumps up with _fmt.png'
+open toc.ncx
+open 'Wrinkle Wood Paper.jpg'
+open 'Figure 5.3_fmt.jpeg'
+open j0316739.jpg
+open 'More to know-Light_bul_fmt3.png'
+cd ..
+ls
+mkdir documents-bkp
+ls
+cd documents
+mv *.xhtml ../documents-bkp
+mv *.emlx ../documents-bkp
+mv *.jpg ../documents-bkp
+mv *.png ../documents-bkp
+mv *.jpeg ../documents-bkp
+pwd
+ls
+help
+help find
+man -k find
+info find
+info find
+find familyderm
+info grep
+grep familyderm
+defaults write com.apple.safari includeinternaldebugmenu 1
+defaults write com.apple.safari includeinternaldebugmenu 1
+defaults write com.apple.safari includeinternaldebugmenu 0
+defaults write com.apple.safari includeinternaldebugmenu 0
+./test.rtf
+chmod + x /test.rtf
+chmod + x test.rtf
+chmod + x test.sh
+./test.sh
+chmod +x test.sh
+./test.sh
+ls
+./test.sh
+test.sh
+git
+git branch
+git config --global user.name Banky Ogedengbe
+git config --global user.email 2265@outlook.com
+git init
+git add .
+git status
+git commit
+git status
+git commit
+git branch
+git branch banky
+gitk
+git show HEAD
+git --version
+git
+python --version
+pip --version
+python3 --version
+pwd
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "bankyoged@hotmail.com"
+pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
+git credential-osxkeychain
+git config --global credential.helper osxkeychain
+git remote
+git config -l
+git config -e
+git remote -v
+git
+git init
+cd /.git
+ls
+ls /.git
+git --version
+git config
+ls
+cd Documents
+ls
+help ls
+man ls
+ls -acs
+cd ../git
+cd ..
+pwd
+ls
+cd Documents/git
+pwd
+ls
+ls
+head gitcmd.txt
+less gitcmd.txt
+man files
+man touch
+touch bashcmd
+ls
+man pwd > bashcmd
+less bashcmd
+rm bashcmd
+ls
+touch bashcmd
+ls
+man help
+help
+man git-log
+git help log
+man tar
+git init
+ls
+git add .
+git commit
