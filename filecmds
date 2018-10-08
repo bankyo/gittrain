@@ -1,4 +1,4 @@
-change made on Master branch
+
 
 git help - help commands and check command syntax
 git help branch - git manual opens the help manual on branch command
@@ -35,6 +35,7 @@ git ls-files –other –ignored –exclude-standard - shows the list of all ign
 git-checkout - Switch branches or restore working tree files
 git-reset - Reset current HEAD to the specified state
 git-log -p - Show commit logs
+git log --stat --summary - provides overview of the change to get a feel of each step
 git log -oneline - Shows the list of Commits with a simple message
 git log --follow (file_name) - list the history for the current file
 git blame (file_name) - shows all changes along with the name of the user
