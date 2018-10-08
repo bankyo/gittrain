@@ -1,6 +1,7 @@
 Git help clone - get help on clone command syntax
 
 git clone (https://github.com/bankyo/crptwriter.git) - Clone a repository into a new directory
+$ git clone git://github.com/schacon/grit.git
 
 git remote -v - from within (a cloned directory)
 
@@ -11,4 +12,4 @@ git remove, rm
 
 git fetch origin
 
-git push --all - specify username bankyo pw wEm-9TV-FYu-oX6
+git push --all - specify  bankyo wEm-9TV-FYu-oX6

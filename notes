@@ -7,8 +7,12 @@ Cloned remote directory on GitHub to Documents folder (crptwriter and GitHub-pag
 git clone https://github.com/bankyo/crptwriter.git and https://github.com/bankyo/github-pages-with-jekyll.git
 Can get some great hands-on practice working on these remote directories.
 Note that these directories were already cloned into the GitHub folder using the GitHub desktop
+ran commands git fetch origin, git push --all successfully to push changes to the remote directory
 
 Working on gitremotecmds file
+
+7/10/18
+read online manual - https://git-scm.com/book/en/v1/Git-Basics-Recording-Changes-to-the-Repository
 
 NOTES
         1. Git User's Manual

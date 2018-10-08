@@ -1,0 +1,29 @@
+https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository
+
+git init - Initializing a Repository in an Existing Directory
+$ git add *.c
+$ git add README
+$ git commit -m 'initial project version'
+$ git clone git://github.com/schacon/grit.git
+$ git status - determine which files are in which state
+git diff --staged - see what you’ve staged that will go into your next commit
+git diff --cached - see what you’ve staged that will go into your next commit
+$ git commit -m "Story 182: Fix benchmarks for speed"
+$ git commit -a -m 'added new benchmarks'
+$ git rm grit.gemspec
+$ git rm --cached readme.txt
+$ git rm log/\*.log - removes all files that have the .log extension in the log/ directory
+$ git rm \*~ - removes all files that end with ~.
+
+
+
+$ cat .gitignore
+*.[oa]
+*~
+
+
+
+
+
+
+
