@@ -20,6 +20,7 @@ git add -A - add all new, modified and deleted files to staging.
 
 git commit -m “(message)” - commits the changes with a custom message.
 git commit -am “(message)” - adds all changes to staging and commits them with a custom message.
+gitk - will show a nice graphical representation of the resulting history.
 
 git rm (file_name) - removes the file and untracks (stop tracking) it.
 git rm –cached (file_name) - untracks the current file.
@@ -51,6 +52,14 @@ git stash pop - remove a single stashed state from the stash list and apply it o
            top of the current working tree state
 
 
+git branch -d experimental - delete the experimental branch
+
+$ git grep "hello" v2.5 - searches for all occurrences of "hello" in v2.5
+
+$ git log v2.5..v2.6            # commits between v2.5 and v2.6
+$ git log v2.5..                # commits since v2.5
+$ git log --since="2 weeks ago" # commits from the last 2 weeks
+$ git log v2.5.. Makefile       # commits since v2.5 which modify # Makefile
 
 
 

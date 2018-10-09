@@ -2,11 +2,14 @@
 Important help commands
 git help workflows - opens the Git Manual GitWorkflows
 git help tutorial - opens A tutorial introduction to Git
+git help tutorial-2 - A tutorial introduction to Git: part two
 git help everyday - A useful minimum set of commands for Everyday Git
 git help revisions - examine the history and state
+git help core-tutorial - A Git core tutorial for developers
 
 
 git --help
+git --help bundle
 
 These are common Git commands used in various situations:
 

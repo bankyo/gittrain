@@ -14,22 +14,8 @@ Working on gitremotecmds file
 7/10/18
 read online manual - https://git-scm.com/book/en/v1/Git-Basics-Recording-Changes-to-the-Repository
 
-NOTES
-        1. Git User's Manual
-           git-htmldocs/user-manual.html
-
-        2. Git concepts chapter of the user-manual
-           git-htmldocs/user-manual.html#git-concepts
-
-        3. howto
-           git-htmldocs/howto-index.html
-
-        4. Git API documentation
-           git-htmldocs/technical/api-index.html
-
-        5. git@vger.kernel.org
-           mailto:git@vger.kernel.org
-
-        6. git-security@googlegroups.com
-           mailto:git-security@googlegroups.com
+8/10/18
+Updated the gitcommoncmds file with impt help commands.
+Reading through the git help tutorial
+Reading through the giteveryday manual
 
