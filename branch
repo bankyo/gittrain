@@ -1,0 +1,13 @@
+git branch experimental #create a new branch named 'experimental'
+git branch #list of all existing branches
+git checkout experimental #to switch to the experimental branch
+(edit file)
+git commit -a -m "experimental branch commit"
+git checkout master #switch back to the master branch
+(edit file)
+git commit -a -m "master branch commit"
+git merge experimental #merge the changes made in experimental into master
+git diff #will show conflicts if any, else you are done
+git commit -am #will commit the result of the merge
+gitk #will show a nice graphical representation of the resulting history
+git branch -d experimental #delete the experimental branch

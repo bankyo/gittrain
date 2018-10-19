@@ -1,0 +1,94 @@
+
+Part 1
+
+Escape key Y - see list of commands
+Ditto - copy files
+
+cd ~/Downloads/   - To download the file:  - curl -O [the URL of the file]
+caffeinate -u -t [number of seconds] - Keep your Mac awake
+sudo systemsetup -setrestartfreeze on - Make your Mac automatically restart after a crash
+Emacs Fn, F10, t, g
+ls -R - expands sub-folders
+cat [file path] - View any file's contents
+defaults write com.apple.screencapture location [place where you want screen grabs saved]. Then hit Enter and then: killall SystemUIServer And hit Enter again.
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false/true Stop apps from saving to iCloud by default
+sudo chmod 777 path-to-file - How to alter file permissions using Terminal. To modify the permissions to allow access and reading, but prohibit changing the file, swap 777 for 644
+sudo chown your-short-user-name path-to-file - To change ownership of a file to your account
+defaults write com.apple.screencapture type JPG - to change the default to jpeg from .png
+defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder - Enable text selection in Quick Look
+Say "Banky is a genius"
+
+
+
+
+
+For a beginners some of the basic computational task is to:
+
+
+View the contents of a directory : A directory may contains visible and invisible files with different file permissions. - ls -a -l -t
+Viewing blocks, HDD partition, External HDD
+Checking the integrity of Downloaded/Transferred Packages
+Converting and copying a file
+Know your machine name, OS and Kernel
+Viewing history - history
+Being root
+Make Directory = mkdir md
+Make Files - touch
+Changing the file permission - chmod
+Own a file - chown
+Install, Update and maintain Packages
+Uncompressing a file - tar
+See current date, time and calendar - cal - date
+Print contents of a file - cat
+Copy and Move - cp - mv
+See the working directory for easy navigation - pwd
+Change the working directory - cd
+
+Part 2
+
+What after these initial commands? Obviously we moved to the next part of this article where we provided commands for computational tasks like:
+
+Finding a file in a given directory - find
+Searching a file with the given keywords - grep
+Finding online documentation - man man
+See the current running processes - ps
+Kill a running process - kill
+See the location of installed Binaries - whereis
+Starting, Ending, Restarting a service - service
+Making and removing of aliases - alias - unalias
+View the disk and space usages - df - du
+Removing a file and/or directory - rm -rf
+Print/echo a custom output on standard output - echo
+Changing password of one-self and other’s, if you are root. - passwd
+View Printing queue - lpr
+Compare two files - cmp
+Download a file, the Linux way (wget)
+Mount a block / partition / external HDD - mount
+Compile and Run a code written in ‘C’, ‘C++’ and ‘Java’ Programming Language
+
+
+Part 3
+
+In our Third and last article of this series, we tried to cover the commands that would be required for the computational task like:
+
+Configuring Network Interface - ifconfig - Assign IP Address to an Interface eth0 -ifconfig eth0 192.168.1.12
+Viewing custom Network Related information - netstat -at -s
+Getting information about Internet Server with customisable switches and Results - nslookup
+Digging DNS - dig
+Knowing Your System uptime - uptime
+Sending an occasional Information to all other logged-in users - wall
+Send text messages directly to a user -mesg - write - talk
+Combination of commands -
+Renaming a file -rename
+Seeing the processes of a CPU - top
+Creating newly formatted ext4 partition
+Text File editors like vi, emacs and nano - vi a.text - nano a,text
+Copying a large file/folder with progress bar - rsync -P - alias cp='rsync -aP'
+Keeping track of free and available memory - free -b -k -m -g -h -s 3
+Backup a mysql database - msqldump
+Make difficult to guess – random password - mkpasswd
+Merge two text files - paste
+List of all the opened files - lsof
+
+
+

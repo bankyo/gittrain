@@ -1,0 +1,1499 @@
+  102  cd /users/bankyogedengbe/desktop/onedrive/documents/cv
+  103  pwd
+  104  ls
+  105  stat cv-2016.docx
+  106  stat document1.docx
+  107  stat help
+  108  man stat
+  109  pwd
+  110  ls -a
+  111  cd library
+  112  ls
+  113  cd application scripts
+  114  cd [application scripts]
+  115  pwd
+  116  cd ..
+  117  pwd
+  118  cd ..
+  119  ls
+  120  cd ..
+  121  ls
+  122  pwd
+  123  cd ..
+  124  pwd
+  125  ls
+  126  pwd
+  127  cd /library
+  128  ls
+  129  cd /network
+  130  ls
+  131  ls
+  132  cd /system
+  133  ls
+  134  cd /users
+  135  ls
+  136  cd /bankyogedengbe
+  137  ls
+  138  pwd
+  139  cd bankyogedengbe
+  140  ls
+  141  ls
+  142  ls documents
+  143  ls documents | wc -l
+  144  ls
+  145  cd documents
+  146  pwd
+  147  wc -l
+  148  du
+  149  pwd
+  150  ls
+  151  cd onedrive
+  152  ls
+  153  open IMG-20150531-WA0001.jpg 
+  154  pwd
+  155  cd documents
+  156  pwd
+  157  ls
+  158  cd cv
+  159  pwd
+  160  ls
+  161  man
+  162  save
+  163  cp
+  164  cp cv-2016.docx cv-2016.txt
+  165  ls
+  166  open cv-2016.txt
+  167  open cv-2016.txt
+  168  edit cv-2016.txt
+  169  ls
+  170  edit cv-2016.rtf
+  171  edit cv-2016.txt
+  172  ls
+  173  pwd
+  174  man mv
+  175  mv -f usefulcommands indexOfCommonAppleOXcommands
+  176  cd ..
+  177  pwd
+  178  cd /users/bankyogedengbe/documents
+  179  pwd
+  180  mv -f usefulcommands indexOfCommonAppleOXcommands
+  181  mv -f usefulcommands.txt indexOfCommonAppleOXcommands.txt
+  182  edit indexOfCommonAppleOXcommands.txt
+  183  man pwd
+  184  man ls
+  185  ls -t
+  186  manls
+  187  man ls
+  188  man cd
+  189  man cd
+  190  man pwd
+  191  man mkdir
+  192  man rmdir
+  193  man rm
+  194  man mkdir
+  195  man rmdir
+  196  man touch
+  197  man edit
+  198  man open
+  199  man cp
+  200  man mv
+  201  man awk
+  202  vi
+  203  pwd
+  204  ls -t
+  205  cp indexOfCommonAppleOXcommands.txt /users/bankyogedengbe/onedrive/documents
+  206  cd /users/bankyogedengbe/onedrive/documents
+  207  pwd
+  208  ls
+  209  ls -t -p
+  210  cd ExplainEverything
+  211  pwd
+  212  ls
+  213  open EE_Movie_290216-1316.mp4
+  214  open ../LoladeWorkHistory.docx
+  215  cd ../alibaba
+  216  ls
+  217  edit 110Pcs+Battery+Cases estimated selling price.xlsx
+  218  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  219  ls
+  220  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  221  open Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx
+  222  open 'Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx'
+  223  open '110Pcs+Battery+Cases estimated selling price.xlsx'
+  224  CD ..
+  225  PWD
+  226  CD ..
+  227  cd ..
+  228  pwd
+  229  ls
+  230  ls -t
+  231  cd ..
+  232  pwd
+  233  ls
+  234  cd ..
+  235  pwd
+  236  cd /
+  237  pwd
+  238  ls
+  239  man rn
+  240  man mv
+  241  mv /users/bankyogedengbe/documents/programmingpathway codepathway
+  242  cd users/bankyogedengbe
+  243  ls
+  244  cd documents
+  245  ls -t
+  246  mv ProgrammingPathway.txt codePathway
+  247  ls codePathway
+  248  ls ProgrammingPathway.txt
+  249  edit codepathway
+  250  man ls
+  251  man close
+  252  man
+  253  man ls
+  254  man mv
+  255  man cp
+  256  help
+  257  q
+  258  man mv
+  259  man for
+  260  man kill
+  261  man killall
+  262  man rsync
+  263  man wc
+  264  man curl
+  265  ls /documents | wc -l
+  266  ls documents | wc -l
+  267  pwd
+  268  cd ..
+  269  ls /documents | wc -l
+  270  wc -l
+  271  ls | wc -l
+  272  cd documents
+  273  ls | wc -l
+  274  df -h /
+  275  top
+  276  last -l $USER
+  277  last
+  278  curl -O http://www.academicintegrity.org/icai/assets/FVProject.pdf
+  279  mv FVProject.pdf $HOME/Desktop
+  280  cd /
+  281  pwd
+  282  ls
+  283  cd home
+  284  ls
+  285  cd users
+  286  cd /users
+  287  ls
+  288  cd bankyogedengbe
+  289  ls
+  290  cd desktop
+  291  ls
+  292  man touch
+  293  man open
+  294  open FVProject.pdf
+  295  ipconfig getifaddr en1
+  296  ipconfig
+  297  man ipconfig
+  298  ipconfig getifaddr
+  299  ipconfig getifaddr en1
+  300  clear
+  301  echo My name is $USER
+  302  CD /
+  303  LS
+  304  ls -l
+  305  cd /
+  306  pwd
+  307  ls -l
+  308  echo $HOME
+  309  info bash
+  310  MYVAR=3
+  311  echo $MYVAR
+  312  printenv
+  313  echo $PATH
+  314  pwd
+  315  ls
+  316  ls -@
+  317  ls -lh
+  318  open B0000108
+  319  open B0004582.mp3
+  320  close B0004582.mp3
+  321  open B0004190.xml
+  322  cd ..
+  323  ls
+  324  mv bankyogedengbe bankyogedengbebkp
+  325  cp -a bankyogedengbe bankyogedengbebkp
+  326  ls
+  327  ls
+  328  cd bankyogedengbe
+  329  pwd
+  330  cp *.xmp ../bankyogedengbe-bkp
+  331  cd ../bankyogedengbe-bkp
+  332  ls
+  333  cd ..
+  334  ls
+  335  rmdir bankyogedengbe-bkp
+  336  PWD
+  337  cd bankyogedengbe
+  338  mv *.xmp ../bankyogedengbe-bkp
+  339  mv *.xml ../bankyogedengbe-bkp
+  340  mv B00* ../bankyogedengbe-bkp
+  341  pwd
+  342  ls
+  343  mv macFolderStructure.graphml documents/
+  344  ls
+  345  cd documents
+  346  ls
+  347  open j0149014.jpg
+  348  open summary thumps up with _fmt.png
+  349  open 'summary thumps up with _fmt.png'
+  350  open toc.ncx
+  351  open 'Wrinkle Wood Paper.jpg'
+  352  open 'Figure 5.3_fmt.jpeg'
+  353  open j0316739.jpg
+  354  open 'More to know-Light_bul_fmt3.png'
+  355  cd ..
+  356  ls
+  357  mkdir documents-bkp
+  358  ls
+  359  cd documents
+  360  mv *.xhtml ../documents-bkp
+  361  mv *.emlx ../documents-bkp
+  362  mv *.jpg ../documents-bkp
+  363  mv *.png ../documents-bkp
+  364  mv *.jpeg ../documents-bkp
+  365  pwd
+  366  pwd
+  367  ls
+  368  help
+  369  help find
+  370  man -k find
+  371  info find
+  372  info find
+  373  find familyderm
+  374  info grep
+  375  grep familyderm
+  376  defaults write com.apple.safari includeinternaldebugmenu 1
+  377  defaults write com.apple.safari includeinternaldebugmenu 1
+  378  defaults write com.apple.safari includeinternaldebugmenu 0
+  379  defaults write com.apple.safari includeinternaldebugmenu 0
+  380  pwd
+  381  ./test.rtf
+  382  pwd
+  383  cd desktop
+  384  ./test.rtf
+  385  chmod + x /test.rtf
+  386  chmod + x test.rtf
+  387  chmod + x test.sh
+  388  ./test.sh
+  389  chmod +x test.sh
+  390  ./test.sh
+  391  ls
+  392  ./test.sh
+  393  test.sh
+  394  man
+  395  man ls
+  396  ./test.sh
+  397  ls
+  398  ls
+  399  ./test.sh
+  400  git
+  401  git branch
+  402  git config --global user.name Banky Ogedengbe
+  403  git config --global user.email 2265@outlook.com
+  404  git init
+  405  git add .
+  406  git status
+  407  git commit
+  408  git status
+  409  git commit
+  410  git branch
+  411  git branch banky
+  412  gitk
+  413  git show HEAD
+  414  git --version
+  415  git
+  416  python --version
+  417  pip --version
+  418  python3 --version
+  419  pwd
+  420  ls -al ~/.ssh
+  421  ssh-keygen -t rsa -b 4096 -C "bankyoged@hotmail.com"
+  422  pbcopy < ~/.ssh/id_rsa.pub
+  423  pbcopy < ~/.ssh/id_rsa.pub
+  424  git credential-osxkeychain
+  425  git config --global credential.helper osxkeychain
+  426  git remote
+  427  git config -l
+  428  git config -e
+  429  git remote -v
+  430  git
+  431  git init
+  432  cd /.git
+  433  ls
+  434  ls /.git
+  435  git --version
+  436  git config
+  437  ls
+  438  cd Documents
+  439  ls
+  440  help ls
+  441  man ls
+  442  ls -acs
+  443  cd ../git
+  444  cd ..
+  445  pwd
+  446  ls
+  447  cd Documents/git
+  448  pwd
+  449  ls
+  450  ls
+  451  head gitcmd.txt
+  452  less gitcmd.txt
+  453  man files
+  454  man touch
+  455  touch bashcmd
+  456  ls
+  457  man pwd > bashcmd
+  458  less bashcmd
+  459  rm bashcmd
+  460  ls
+  461  touch bashcmd
+  462  ls
+  463  man help
+  464  help
+  465  man git-log
+  466  git help log
+  467  man tar
+  468  git init
+  469  ls
+  470  git add .
+  471  git commit
+  472  help
+  473  man >>
+  474  man append
+  475  man pwd >> file1
+  476  ls
+  477  rm file1
+  478  ls
+  479  man rm
+  480  man
+  481  grep
+  482  python3
+  483  python3
+  484  git help
+  485  git help branch
+  486  git help checkout
+  487  git help reset
+  488  git help log
+  489  git help log
+  490  git help stash
+  491  git help stash list
+  492  git help clone
+  493  git help remote
+  494  git help rmdir
+  495  man rmdir
+  496  git help remote rm
+  497  help rmdir
+  498  man -k rmdir
+  499  info rmdir
+  500  info help
+  501  cd gittrain
+  502  cd documents/gittrain
+  503  ls
+  504  open filecmds
+  505  git branch
+  506  git branch experimental
+  507  git branch
+  508  git checkout experimental
+  509  git branch
+  510  open filecmds
+  511  git commit -a
+  512  git commit -am "Commit on Experimental branch"
+  513  open filecmds
+  514  git checkout master
+  515  open filecmds
+  516  git commit -am "Commit on Master branch"
+  517  git merge experimental
+  518  git diff
+  519  open filecmds
+  520  git diff
+  521  git commit -am "Resolved conflict and merge to Master branch"
+  522  git diff
+  523  open filecmds
+  524  ls
+  525  git branch
+  526  gitk
+  527  open filecmds
+  528  git branch -d experimental
+  529  git branch
+  530  git remote -v
+  531  ls
+  532  open gitremotecmds
+  533  open gitremotecmds
+  534  open gitcommoncmds
+  535  git config --get remote.origin.url
+  536  git log
+  537  ls
+  538  open filecmds
+  539  open notes
+  540  open notes
+  541  open notes
+  542  git --help config
+  543  git config -l
+  544  git diff --cached
+  545  git diff --cached
+  546  git status
+  547  git add .
+  548  git diff --cached
+  549  git status
+  550  git commit -am "morning update 9 Oct 18"
+  551  git log -p
+  552  touch viewingprojecthistorycmds
+  553  open viewingprojecthistorycmds
+  554  touch branch
+  555  open branch
+  556  touch collab
+  557  open collab
+  558  open viewingprojecthistorycmds
+  559  ls
+  560  open notes
+  561  ls -t
+  562  pwd
+  563  ls -a
+  564  ls -l
+  565  ls -alt
+  566  mv viewprojecthistorycmds githistorycmds
+  567  mv viewingprojecthistorycmds githistorycmds
+  568  ls -alt
+  569  open atlassian-git-cheatsheet.pdf
+  570  mv atlassian-git-cheatsheet.pdf cs.pdf
+  571  ls -alt
+  572  open bashcmds
+  573  touch bashcmds
+  574  open bashcmds
+  575  open bashcmds
+  576  open bashcmds
+  577  nano ~/.bash_profile
+  578  pd
+  579  source ~/.bash_profile
+  580  pd
+  581  ll
+  582  nano ~/.bash_profile
+  583  hy
+  584  hy > hycmds111018.txt
+  585  open hycmds111018.txt
+  586  clear
+  587  nano ~/.bash_profile
+  588  source ~/.bash_profile
+  589  echo $USER
+  590  hy
+  591  clear
+  592  nano ~/.bash_profile
+  593  source ~/.bash_profile
+  594  echo $HOME
+  595  echo $PATH
+  596  /bin/pwd
+  597  /bin/ls
+  598  env
+  599  clear
+  600  env | grep PATH
+  601  hy > hycmds111018.txt
+  161  man
+  162  save
+  163  cp
+  164  cp cv-2016.docx cv-2016.txt
+  165  ls
+  166  open cv-2016.txt
+  167  open cv-2016.txt
+  168  edit cv-2016.txt
+  169  ls
+  170  edit cv-2016.rtf
+  171  edit cv-2016.txt
+  172  ls
+  173  pwd
+  174  man mv
+  175  mv -f usefulcommands indexOfCommonAppleOXcommands
+  176  cd ..
+  177  pwd
+  178  cd /users/bankyogedengbe/documents
+  179  pwd
+  180  mv -f usefulcommands indexOfCommonAppleOXcommands
+  181  mv -f usefulcommands.txt indexOfCommonAppleOXcommands.txt
+  182  edit indexOfCommonAppleOXcommands.txt
+  183  man pwd
+  184  man ls
+  185  ls -t
+  186  manls
+  187  man ls
+  188  man cd
+  189  man cd
+  190  man pwd
+  191  man mkdir
+  192  man rmdir
+  193  man rm
+  194  man mkdir
+  195  man rmdir
+  196  man touch
+  197  man edit
+  198  man open
+  199  man cp
+  200  man mv
+  201  man awk
+  202  vi
+  203  pwd
+  204  ls -t
+  205  cp indexOfCommonAppleOXcommands.txt /users/bankyogedengbe/onedrive/documents
+  206  cd /users/bankyogedengbe/onedrive/documents
+  207  pwd
+  208  ls
+  209  ls -t -p
+  210  cd ExplainEverything
+  211  pwd
+  212  ls
+  213  open EE_Movie_290216-1316.mp4
+  214  open ../LoladeWorkHistory.docx
+  215  cd ../alibaba
+  216  ls
+  217  edit 110Pcs+Battery+Cases estimated selling price.xlsx
+  218  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  219  ls
+  220  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  221  open Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx
+  222  open 'Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx'
+  223  open '110Pcs+Battery+Cases estimated selling price.xlsx'
+  224  CD ..
+  225  PWD
+  226  CD ..
+  227  cd ..
+  228  pwd
+  229  ls
+  230  ls -t
+  231  cd ..
+  232  pwd
+  233  ls
+  234  cd ..
+  235  pwd
+  236  cd /
+  237  pwd
+  238  ls
+  239  man rn
+  240  man mv
+  241  mv /users/bankyogedengbe/documents/programmingpathway codepathway
+  242  cd users/bankyogedengbe
+  243  ls
+  244  cd documents
+  245  ls -t
+  246  mv ProgrammingPathway.txt codePathway
+  247  ls codePathway
+  248  ls ProgrammingPathway.txt
+  249  edit codepathway
+  250  man ls
+  251  man close
+  252  man
+  253  man ls
+  254  man mv
+  255  man cp
+  256  help
+  257  q
+  258  man mv
+  259  man for
+  260  man kill
+  261  man killall
+  262  man rsync
+  263  man wc
+  264  man curl
+  265  ls /documents | wc -l
+  266  ls documents | wc -l
+  267  pwd
+  268  cd ..
+  269  ls /documents | wc -l
+  270  wc -l
+  271  ls | wc -l
+  272  cd documents
+  273  ls | wc -l
+  274  df -h /
+  275  top
+  276  last -l $USER
+  277  last
+  278  curl -O http://www.academicintegrity.org/icai/assets/FVProject.pdf
+  279  mv FVProject.pdf $HOME/Desktop
+  280  cd /
+  281  pwd
+  282  ls
+  283  cd home
+  284  ls
+  285  cd users
+  286  cd /users
+  287  ls
+  288  cd bankyogedengbe
+  289  ls
+  290  cd desktop
+  291  ls
+  292  man touch
+  293  man open
+  294  open FVProject.pdf
+  295  ipconfig getifaddr en1
+  296  ipconfig
+  297  man ipconfig
+  298  ipconfig getifaddr
+  299  ipconfig getifaddr en1
+  300  clear
+  301  echo My name is $USER
+  302  CD /
+  303  LS
+  304  ls -l
+  305  cd /
+  306  pwd
+  307  ls -l
+  308  echo $HOME
+  309  info bash
+  310  MYVAR=3
+  311  echo $MYVAR
+  312  printenv
+  313  echo $PATH
+  314  pwd
+  315  ls
+  316  ls -@
+  317  ls -lh
+  318  open B0000108
+  319  open B0004582.mp3
+  320  close B0004582.mp3
+  321  open B0004190.xml
+  322  cd ..
+  323  ls
+  324  mv bankyogedengbe bankyogedengbebkp
+  325  cp -a bankyogedengbe bankyogedengbebkp
+  326  ls
+  327  ls
+  328  cd bankyogedengbe
+  329  pwd
+  330  cp *.xmp ../bankyogedengbe-bkp
+  331  cd ../bankyogedengbe-bkp
+  332  ls
+  333  cd ..
+  334  ls
+  335  rmdir bankyogedengbe-bkp
+  336  PWD
+  337  cd bankyogedengbe
+  338  mv *.xmp ../bankyogedengbe-bkp
+  339  mv *.xml ../bankyogedengbe-bkp
+  340  mv B00* ../bankyogedengbe-bkp
+  341  pwd
+  342  ls
+  343  mv macFolderStructure.graphml documents/
+  344  ls
+  345  cd documents
+  346  ls
+  347  open j0149014.jpg
+  348  open summary thumps up with _fmt.png
+  349  open 'summary thumps up with _fmt.png'
+  350  open toc.ncx
+  351  open 'Wrinkle Wood Paper.jpg'
+  352  open 'Figure 5.3_fmt.jpeg'
+  353  open j0316739.jpg
+  354  open 'More to know-Light_bul_fmt3.png'
+  355  cd ..
+  356  ls
+  357  mkdir documents-bkp
+  358  ls
+  359  cd documents
+  360  mv *.xhtml ../documents-bkp
+  361  mv *.emlx ../documents-bkp
+  362  mv *.jpg ../documents-bkp
+  363  mv *.png ../documents-bkp
+  364  mv *.jpeg ../documents-bkp
+  365  pwd
+  366  pwd
+  367  ls
+  368  help
+  369  help find
+  370  man -k find
+  371  info find
+  372  info find
+  373  find familyderm
+  374  info grep
+  375  grep familyderm
+  376  defaults write com.apple.safari includeinternaldebugmenu 1
+  377  defaults write com.apple.safari includeinternaldebugmenu 1
+  378  defaults write com.apple.safari includeinternaldebugmenu 0
+  379  defaults write com.apple.safari includeinternaldebugmenu 0
+  380  pwd
+  381  ./test.rtf
+  382  pwd
+  383  cd desktop
+  384  ./test.rtf
+  385  chmod + x /test.rtf
+  386  chmod + x test.rtf
+  387  chmod + x test.sh
+  388  ./test.sh
+  389  chmod +x test.sh
+  390  ./test.sh
+  391  ls
+  392  ./test.sh
+  393  test.sh
+  394  man
+  395  man ls
+  396  ./test.sh
+  397  ls
+  398  ls
+  399  ./test.sh
+  400  git
+  401  git branch
+  402  git config --global user.name Banky Ogedengbe
+  403  git config --global user.email 2265@outlook.com
+  404  git init
+  405  git add .
+  406  git status
+  407  git commit
+  408  git status
+  409  git commit
+  410  git branch
+  411  git branch banky
+  412  gitk
+  413  git show HEAD
+  414  git --version
+  415  git
+  416  python --version
+  417  pip --version
+  418  python3 --version
+  419  pwd
+  420  ls -al ~/.ssh
+  421  ssh-keygen -t rsa -b 4096 -C "bankyoged@hotmail.com"
+  422  pbcopy < ~/.ssh/id_rsa.pub
+  423  pbcopy < ~/.ssh/id_rsa.pub
+  424  git credential-osxkeychain
+  425  git config --global credential.helper osxkeychain
+  426  git remote
+  427  git config -l
+  428  git config -e
+  429  git remote -v
+  430  git
+  431  git init
+  432  cd /.git
+  433  ls
+  434  ls /.git
+  435  git --version
+  436  git config
+  437  ls
+  438  cd Documents
+  439  ls
+  440  help ls
+  441  man ls
+  442  ls -acs
+  443  cd ../git
+  444  cd ..
+  445  pwd
+  446  ls
+  447  cd Documents/git
+  448  pwd
+  449  ls
+  450  ls
+  451  head gitcmd.txt
+  452  less gitcmd.txt
+  453  man files
+  454  man touch
+  455  touch bashcmd
+  456  ls
+  457  man pwd > bashcmd
+  458  less bashcmd
+  459  rm bashcmd
+  460  ls
+  461  touch bashcmd
+  462  ls
+  463  man help
+  464  help
+  465  man git-log
+  466  git help log
+  467  man tar
+  468  git init
+  469  ls
+  470  git add .
+  471  git commit
+  472  help
+  473  man >>
+  474  man append
+  475  man pwd >> file1
+  476  ls
+  477  rm file1
+  478  ls
+  479  man rm
+  480  man
+  481  grep
+  482  python3
+  483  python3
+  484  git help
+  485  git help branch
+  486  git help checkout
+  487  git help reset
+  488  git help log
+  489  git help log
+  490  git help stash
+  491  git help stash list
+  492  git help clone
+  493  git help remote
+  494  git help rmdir
+  495  man rmdir
+  496  git help remote rm
+  497  help rmdir
+  498  man -k rmdir
+  499  info rmdir
+  500  info help
+  501  ls
+  502  cd documents
+  503  ls
+  504  cd git
+  505  clear
+  506  clear
+  507  ls
+  508  open gitremotecmds
+  509  open notes
+  510  open filecmds
+  511  git status
+  512  git add -A
+  513  git status
+  514  git commit -m "Frid 5 Oct 15:57"
+  515  git status
+  516  ls
+  517  git remote
+  518  cd documents
+  519  cd ..
+  520  cd crptwriter
+  521  ls
+  522  git remote
+  523  git remote -v
+  524  git branch --help
+  525  man git branch
+  526  man git remote
+  527  git help add
+  528  git help remote
+  529  cd ..
+  530  ls
+  531  man rename
+  532  rename git gittrain
+  533  man rename
+  534  man mv
+  535  mv git gittrain -v
+  536  ls
+  537  man mv
+  538  git-clone (https://github.com/bankyo/gittrain.git)
+  539  git-clone https://github.com/bankyo/gittrain.git
+  540  git clone https://github.com/bankyo/gittrain.git
+  541  ls
+  542  cd gittrain
+  543  ls
+  544  open filecmds
+  545  open gitremotecmds
+  546  open notes
+  547  open readme.md
+  548  open bashcmds
+  549  open gitcmd
+  550  open gitcmd.txt
+  551  open gitremotecmds
+  552  open notes
+  553  git help fetch
+  554  LS
+  555  open gitremotecmds
+  556  open filecmds
+  557  open notes
+  558  open gitremotecmds
+  559  ping cnn
+  560  help ping
+  561  info ping
+  562  ls
+  563  open filecmds
+  564  touch gitconfigcmds
+  565  ls
+  566  open gitconfigcmds
+  567  open gitremotecmds
+  568  open notes
+  569  git
+  570  git help
+  571  git help -a
+  572  git help -a >> gitcommoncmds
+  573  git help -g
+  574  git help -g >> gitcommoncmds
+  575  git core-tutorial
+  576  core-tutorial
+  577  git help workflows
+  578  git help tutorial
+  579  git --help everyday
+  580  git --help rebase
+  581  help grep
+  582  man grep
+  583  sed --help
+  584  man sed
+  585  pwd
+  586  ll
+  587  ll
+  588  ls -alt
+  589  open macmds 
+  590  open macmds 
+  591  Say "Banky is a genius"
+  592  Say "Banky is a genius"
+  593  Say "Banky is a genius"
+  594  Say "Banky is a genius"
+  595  Say "Banky is a genius"
+  596  open macmds 
+  597  look -df
+  598  look -df look
+  599  look -df look macmds
+  600  look -df look filecmds
+  601  look -df look bashcmds
+  602  open bashcmds
+  603  ls | paste ---
+  604  ls | paste - - -
+  605  md test-project
+  606  alias
+  607  alias md="mkdir"
+  608  md test-project
+  609  ls | paste - - -
+  610  cd test-project
+  611  pwd
+  612  rm test-project
+  613  cd ..
+  614  rm test-project
+  615  rm -R test-project
+  616  pwd
+  617  cd ..
+  618  pwd
+  619  md test-project
+  620  ls | paste - - -
+  621  cd test-project
+  622  pwd
+  623  git init
+  624  ls -alt
+  625  echo 'hello world' > file.txt
+  626  git add .
+  627  git status
+  628  git commit -a -m "initial commit"
+  629  echo 'hello world!' > file.txt
+  630  git commit -a -m "add emphasis"
+  631  git status
+  632  git cat-file -t 6ca3e41 #find out about a commit object
+  633  git cat-file commit 6ca3e41 #ask git about a particular commit object using 7 char strings (initial commit)
+  634  open ../gittrain/gitcommoncmds 
+  635  git ls-tree 6ca3e41 #examine the contents of any tree using ls-tree, initial state or a new state
+  636  git ls-tree e9c46f1
+  637  git cat-file -t 3b18e512 
+  638  git cat-file blob 3b18e512 #you can examine the blob (file) with cat-file command too (prints out file content in the terminal)
+  639  find .git/objects/ #use the find command to find all objects stored under their SHA-1 names inside the Git directory
+  640  cat .git/HEAD #tells us which branch we're currently on
+  642  cat .git/refs/heads/master #contains a SHA-1 name referring to a commit object
+  643  git cat-file -t e9c46f1b8 #examines this SHA-1 name with a cat-file command
+  644  git cat-file commit e9c46f1b8 #examines the commit details
+  645  git ls-tree d0492b368b66
+  646  git cat-file blob a04238969736
+  647  git cat-file commit 6ca3e41f6233ea8
+  648  pwd
+  649  ll
+  650  man alias
+  651  alias ll="ls -alt"
+  652  ll
+  653  help alias
+  654  alia
+  655  alias
+  656  help echo
+  657  history
+  658  pwd
+  659  hy >> /Users/bankyogedengbe/documents/gittrain/hycmds111018.txt
+  660  history >> /Users/bankyogedengbe/documents/gittrain/hycmds111018.txt
+   54  lsof
+   55  pwd
+   56  ls
+   57  open cv-buzzwords
+   58  open cv-buzzwords.docx
+   59  open cv-buzzwords.docx
+   60  cd /users/bankyogedengbe
+   61  pwd
+   62  ls
+   63  rmdir maccmds
+   64  ls
+   65  whoami
+   66  /users/bankyogedengbe/desktop/onedrive/documents/cv
+   67  cd /users/bankyogedengbe/desktop/onedrive/documents/cv
+   68  pwd
+   69  ls
+   70  stat cv-2016.docx
+   71  stat document1.docx
+   72  stat help
+   73  man stat
+   74  pwd
+   75  ls -a
+   76  cd library
+   77  ls
+   78  cd application scripts
+   79  cd [application scripts]
+   80  pwd
+   81  cd ..
+   82  pwd
+   83  cd ..
+   84  ls
+   85  cd ..
+   86  ls
+   87  pwd
+   88  cd ..
+   89  pwd
+   90  ls
+   91  pwd
+   92  cd /library
+   93  ls
+   94  cd /network
+   95  ls
+   96  ls
+   97  cd /system
+   98  ls
+   99  cd /users
+  100  ls
+  101  cd /bankyogedengbe
+  102  ls
+  103  pwd
+  104  cd bankyogedengbe
+  105  ls
+  106  ls
+  107  ls documents
+  108  ls documents | wc -l
+  109  ls
+  110  cd documents
+  111  pwd
+  112  wc -l
+  113  du
+  114  pwd
+  115  ls
+  116  cd onedrive
+  117  ls
+  118  open IMG-20150531-WA0001.jpg 
+  119  pwd
+  120  cd documents
+  121  pwd
+  122  ls
+  123  cd cv
+  124  pwd
+  125  ls
+  126  man
+  127  save
+  128  cp
+  129  cp cv-2016.docx cv-2016.txt
+  130  ls
+  131  open cv-2016.txt
+  132  open cv-2016.txt
+  133  edit cv-2016.txt
+  134  ls
+  135  edit cv-2016.rtf
+  136  edit cv-2016.txt
+  137  ls
+  138  pwd
+  139  man mv
+  140  mv -f usefulcommands indexOfCommonAppleOXcommands
+  141  cd ..
+  142  pwd
+  143  cd /users/bankyogedengbe/documents
+  144  pwd
+  145  mv -f usefulcommands indexOfCommonAppleOXcommands
+  146  mv -f usefulcommands.txt indexOfCommonAppleOXcommands.txt
+  147  edit indexOfCommonAppleOXcommands.txt
+  148  man pwd
+  149  man ls
+  150  ls -t
+  151  manls
+  152  man ls
+  153  man cd
+  154  man cd
+  155  man pwd
+  156  man mkdir
+  157  man rmdir
+  158  man rm
+  159  man mkdir
+  160  man rmdir
+  161  man touch
+  162  man edit
+  163  man open
+  164  man cp
+  165  man mv
+  166  man awk
+  167  vi
+  168  pwd
+  169  ls -t
+  170  cp indexOfCommonAppleOXcommands.txt /users/bankyogedengbe/onedrive/documents
+  171  cd /users/bankyogedengbe/onedrive/documents
+  172  pwd
+  173  ls
+  174  ls -t -p
+  175  cd ExplainEverything
+  176  pwd
+  177  ls
+  178  open EE_Movie_290216-1316.mp4
+  179  open ../LoladeWorkHistory.docx
+  180  cd ../alibaba
+  181  ls
+  182  edit 110Pcs+Battery+Cases estimated selling price.xlsx
+  183  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  184  ls
+  185  open 110Pcs+Battery+Cases estimated selling price.xlsx
+  186  open Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx
+  187  open 'Copy of New+Proforma+Invoice+for+110Pcs+Battery+Cases(20151014).xlsx'
+  188  open '110Pcs+Battery+Cases estimated selling price.xlsx'
+  189  CD ..
+  190  PWD
+  191  CD ..
+  192  cd ..
+  193  pwd
+  194  ls
+  195  ls -t
+  196  cd ..
+  197  pwd
+  198  ls
+  199  cd ..
+  200  pwd
+  201  cd /
+  202  pwd
+  203  ls
+  204  man rn
+  205  man mv
+  206  mv /users/bankyogedengbe/documents/programmingpathway codepathway
+  207  cd users/bankyogedengbe
+  208  ls
+  209  cd documents
+  210  ls -t
+  211  mv ProgrammingPathway.txt codePathway
+  212  ls codePathway
+  213  ls ProgrammingPathway.txt
+  214  edit codepathway
+  215  man ls
+  216  man close
+  217  man
+  218  man ls
+  219  man mv
+  220  man cp
+  221  help
+  222  q
+  223  man mv
+  224  man for
+  225  man kill
+  226  man killall
+  227  man rsync
+  228  man wc
+  229  man curl
+  230  ls /documents | wc -l
+  231  ls documents | wc -l
+  232  pwd
+  233  cd ..
+  234  ls /documents | wc -l
+  235  wc -l
+  236  ls | wc -l
+  237  cd documents
+  238  ls | wc -l
+  239  df -h /
+  240  top
+  241  last -l $USER
+  242  last
+  243  curl -O http://www.academicintegrity.org/icai/assets/FVProject.pdf
+  244  mv FVProject.pdf $HOME/Desktop
+  245  cd /
+  246  pwd
+  247  ls
+  248  cd home
+  249  ls
+  250  cd users
+  251  cd /users
+  252  ls
+  253  cd bankyogedengbe
+  254  ls
+  255  cd desktop
+  256  ls
+  257  man touch
+  258  man open
+  259  open FVProject.pdf
+  260  ipconfig getifaddr en1
+  261  ipconfig
+  262  man ipconfig
+  263  ipconfig getifaddr
+  264  ipconfig getifaddr en1
+  265  clear
+  266  echo My name is $USER
+  267  CD /
+  268  LS
+  269  ls -l
+  270  cd /
+  271  pwd
+  272  ls -l
+  273  echo $HOME
+  274  info bash
+  275  MYVAR=3
+  276  echo $MYVAR
+  277  printenv
+  278  echo $PATH
+  279  pwd
+  280  ls
+  281  ls -@
+  282  ls -lh
+  283  open B0000108
+  284  open B0004582.mp3
+  285  close B0004582.mp3
+  286  open B0004190.xml
+  287  cd ..
+  288  ls
+  289  mv bankyogedengbe bankyogedengbebkp
+  290  cp -a bankyogedengbe bankyogedengbebkp
+  291  ls
+  292  ls
+  293  cd bankyogedengbe
+  294  pwd
+  295  cp *.xmp ../bankyogedengbe-bkp
+  296  cd ../bankyogedengbe-bkp
+  297  ls
+  298  cd ..
+  299  ls
+  300  rmdir bankyogedengbe-bkp
+  301  PWD
+  302  cd bankyogedengbe
+  303  mv *.xmp ../bankyogedengbe-bkp
+  304  mv *.xml ../bankyogedengbe-bkp
+  305  mv B00* ../bankyogedengbe-bkp
+  306  pwd
+  307  ls
+  308  mv macFolderStructure.graphml documents/
+  309  ls
+  310  cd documents
+  311  ls
+  312  open j0149014.jpg
+  313  open summary thumps up with _fmt.png
+  314  open 'summary thumps up with _fmt.png'
+  315  open toc.ncx
+  316  open 'Wrinkle Wood Paper.jpg'
+  317  open 'Figure 5.3_fmt.jpeg'
+  318  open j0316739.jpg
+  319  open 'More to know-Light_bul_fmt3.png'
+  320  cd ..
+  321  ls
+  322  mkdir documents-bkp
+  323  ls
+  324  cd documents
+  325  mv *.xhtml ../documents-bkp
+  326  mv *.emlx ../documents-bkp
+  327  mv *.jpg ../documents-bkp
+  328  mv *.png ../documents-bkp
+  329  mv *.jpeg ../documents-bkp
+  330  pwd
+  331  pwd
+  332  ls
+  333  help
+  334  help find
+  335  man -k find
+  336  info find
+  337  info find
+  338  find familyderm
+  339  info grep
+  340  grep familyderm
+  341  defaults write com.apple.safari includeinternaldebugmenu 1
+  342  defaults write com.apple.safari includeinternaldebugmenu 1
+  343  defaults write com.apple.safari includeinternaldebugmenu 0
+  344  defaults write com.apple.safari includeinternaldebugmenu 0
+  345  pwd
+  346  ./test.rtf
+  347  pwd
+  348  cd desktop
+  349  ./test.rtf
+  350  chmod + x /test.rtf
+  351  chmod + x test.rtf
+  352  chmod + x test.sh
+  353  ./test.sh
+  354  chmod +x test.sh
+  355  ./test.sh
+  356  ls
+  357  ./test.sh
+  358  test.sh
+  359  man
+  360  man ls
+  361  ./test.sh
+  362  ls
+  363  ls
+  364  ./test.sh
+  365  git
+  366  git branch
+  367  git config --global user.name Banky Ogedengbe
+  368  git config --global user.email 2265@outlook.com
+  369  git init
+  370  git add .
+  371  git status
+  372  git commit
+  373  git status
+  374  git commit
+  375  git branch
+  376  git branch banky
+  377  gitk
+  378  git show HEAD
+  379  git --version
+  380  git
+  381  python --version
+  382  pip --version
+  383  python3 --version
+  384  pwd
+  385  ls -al ~/.ssh
+  386  ssh-keygen -t rsa -b 4096 -C "bankyoged@hotmail.com"
+  387  pbcopy < ~/.ssh/id_rsa.pub
+  388  pbcopy < ~/.ssh/id_rsa.pub
+  389  git credential-osxkeychain
+  390  git config --global credential.helper osxkeychain
+  391  git remote
+  392  git config -l
+  393  git config -e
+  394  git remote -v
+  395  git
+  396  git init
+  397  cd /.git
+  398  ls
+  399  ls /.git
+  400  git --version
+  401  git config
+  402  ls
+  403  cd Documents
+  404  ls
+  405  help ls
+  406  man ls
+  407  ls -acs
+  408  cd ../git
+  409  cd ..
+  410  pwd
+  411  ls
+  412  cd Documents/git
+  413  pwd
+  414  ls
+  415  ls
+  416  head gitcmd.txt
+  417  less gitcmd.txt
+  418  man files
+  419  man touch
+  420  touch bashcmd
+  421  ls
+  422  man pwd > bashcmd
+  423  less bashcmd
+  424  rm bashcmd
+  425  ls
+  426  touch bashcmd
+  427  ls
+  428  man help
+  429  help
+  430  man git-log
+  431  git help log
+  432  man tar
+  433  git init
+  434  ls
+  435  git add .
+  436  git commit
+  437  help
+  438  man >>
+  439  man append
+  440  man pwd >> file1
+  441  ls
+  442  rm file1
+  443  ls
+  444  man rm
+  445  man
+  446  grep
+  447  python3
+  448  python3
+  449  git help
+  450  git help branch
+  451  git help checkout
+  452  git help reset
+  453  git help log
+  454  git help log
+  455  git help stash
+  456  git help stash list
+  457  git help clone
+  458  git help remote
+  459  git help rmdir
+  460  man rmdir
+  461  git help remote rm
+  462  help rmdir
+  463  man -k rmdir
+  464  info rmdir
+  465  info help
+  466  help
+  467  q
+  468  :q
+  469  help gre[
+  470  help grep
+  471  man -k grep
+  472  ls
+  473  cd documents
+  474  ls
+  475  grep "gardening"
+  476  man
+  477  bash
+  478  ls
+  479  cd documents
+  480  help ls
+  481  man -k ls
+  482  man grep
+  483  grep 'farming'
+  484  pwd
+  485  cd documents
+  486  pwd
+  487  open [Apple OS X command line A-Z Index] 
+  488  open (Apple OS X command line A-Z Index)
+  489  open "Apple OS X command line A-Z Index"
+  490  ls
+  491  open [Apple OS X command line A-Z Index.txt] 
+  492  open "Apple OS X command line A-Z Index.txt"
+  493  open (Apple OS X command line A-Z Index.txt)
+  494  open Apple OS X command line A-Z Index.txt
+  495  open macmds 
+  496  mv macmds /Users/bankyogedengbe/documents/gittrain
+  497  ll
+  498  pwd
+  499  Say "Banky is a genius"
+  500  Say "Banky is a genius"
+  501  pwd
+  502  ll
+  503  cd documents
+  504  ll
+  505  touch mailconfig.txt
+  506  open mailconfig.txt
+  507  man gethostname
+  508  pwd
+  509  sudo vi /etc/postfix/main.cf
+  510  sudo nano /etc/postfix/main.cf
+  511  sudo nano /etc/postfix/sasl_passwd
+  512  sudo postmap /etc/postfix/sasl_passwd
+  513  sudo postfix reload
+  514  sudo nano /etc/postfix/main.cf
+  515  sudo postfix reload
+  516  sudo postconf compatibility_level=2
+  517  sudo postfix reload
+  518  sudo nano /etc/postfix/main.cf
+  519  sudo postfix reload
+  520  sudo nano /etc/postfix/main.cf
+  521  sudo postfix reload
+  522  sudo nano /etc/postfix/main.cf
+  523  crontab -l
+  524  defaults read com.apple.loginwindow LoginHook
+  525  man mdfind
+  526  pwd
+  527  ll
+  528  cd gittrain/
+  529  pwd
+  530  ll
+  531  cd ..
+  532  pwd
+  533  ll
+  534  touch crontab.txt
+  535  open crontab.txt
+  536  pwd
+  537  hy
+  538  pwd
+  539  cd gittrain/
+  540  pwd
+  541  ll
+  542  open bashcmds 
+  543  open filecmds 
+  544  mv filecmds gitfilecmds
+  545  ll
+  546  open gitcmd.txt
+  547  open gitcommoncmds 
+  548  open gitconfigcmds 
+  549  open githistorycmds 
+  550  open hycmds111018.txt 
+  551  pwd
+  552  open hycmds111018.txt 
+  553  hy >> /Users/bankyogedengbe/documents/gittrain/hycmds111018.txt

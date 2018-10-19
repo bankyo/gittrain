@@ -6,6 +6,7 @@ git help tutorial-2 - A tutorial introduction to Git: part two
 git help everyday - A useful minimum set of commands for Everyday Git
 git help revisions - examine the history and state
 git help core-tutorial - A Git core tutorial for developers
+info gitcore-tutorial
 
 
 git --help
@@ -171,3 +172,31 @@ The common Git guides are:
 'git help -a' and 'git help -g' list available subcommands and some
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
+
+$ git cat-file -t [hex digits]
+  commit
+$ git cat-file commit [hex digits]
+
+$ git ls-tree [hex digits]
+
+$ git cat-file -t 3b18e512
+$ git cat-file blob 3b18e512
+
+$ find .git/objects/
+$ cat .git/HEAD
+$ cat .git/refs/heads/master
+$ git cat-file -t c4d59f39
+$ git cat-file commit c4d59f39
+$ git ls-tree d0492b36
+$ git cat-file blob a0423896
+
+
+
+
+
+
+
+
+
+
+

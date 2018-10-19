@@ -195,27 +195,6 @@ List the history for the current file.
 git blame (file_name)
 Shows all changes along with the name of the user.
 12
-git stash
-Temporarily saves all modified tracked files.
-13
-git stash pop
-Restores the most recently stashed files.
-14
-git stash list
-List all stash changedsets.
-15
-git stash apply
-Apply the latest stashed contents.
-16
-git stash drop
-Discard the most recently stashed files
-17
-git stash apply (stash id)
-Re-apply a specific stash content by ID.
-18
-git stash drop (stash_id)
-Drop a specific stash content by ID.
-19
 git push
 Push changes to the Origin.
 16

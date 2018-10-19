@@ -1,3 +1,9 @@
+
+cp copies files
+mv moves and renames files
+rm removes files
+rm -r removes directories
+
 defaults write com.apple.screencapture location ~/Documents/New Screenshots
 killall SystemUIServer
 ls -l
@@ -251,3 +257,64 @@ git init
 ls
 git add .
 git commit
+---
+#11 Oct 18 11;22am The commands we've covered below are commonly used to redirect input and output from the command line
+> redirects standard output of a command to a file, overwriting previous content.
+>> redirects standard output of a command to a file, appending new content to old content.
+< redirects standard input to a command.
+| redirects standard output of a command to another command.
+sort: sorts lines of text alphabetically.
+uniq: filters duplicate, adjacent lines of text.
+grep: searches for a text pattern and outputs it.
+sed : searches for a text pattern, modifies it, and outputs it.pla
+cat volcanoes.txt | wc | cat > islands.txt
+cat plants.txt | wc -l -w -c
+sort
+cat lakes.txt | sort > sorted-lakes.txt
+sort deserts.txt | uniq
+sort deserts.txt | uniq > uniq-deserts.txt
+grep Mount mountains.txt # grep searches files for lines that match a pattern and returns the results. It is also case sensitive
+grep -i enables the command to be case insensitive
+grep -R Arctic /home/ccuser/workspace/geography #search within a directory
+grep -R -l player . # search for 'player' in the current directory signified by the dot
+sed 's/snow/rain/' forests.txt # s: stands for "substitution". Note words search is case sensitive
+sed 's/snow/rain/g' forests.txt # sed searches forests.txt for the word "snow" and replaces it with "rain", globally
+ls -l | head > list1.txt
+ls -la | head >> list1.txt | wc
+nano hello.txt # opens a new text file named hello.txt in the nano text editor
+"Hello, I am nano."
+nano ~/.bash_profile # The ~ represents the user's home directory. The . indicates a hidden file.
+echo "Welcome, Bankole Ogedengbe"
+alias pd="pwd"
+alias hy="history"
+alias ll="ls -la"
+source ~/.bash_profile # makes new changes visible in current terminal session
+less <filename.txt> # The less command is similar to cat, but is better adapted to handling larger files
+env | grep LESS # return the value for the environment variable for LESS
+
+
+
+Beginner's Guide to the Bash Terminal YouTube video
+ls, pwd, cd ~, pushd, popd, file, locate, which, cal, history, whatis, apropos, man man, mkdir, touch, cp,
+mv, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
