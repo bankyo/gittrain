@@ -1,0 +1,107 @@
+Let's start a new project and create a small amount of history:
+
+           $ mkdir test-project
+           $ cd test-project
+           $ git init
+           Initialized empty Git repository in .git/
+           $ echo 'hello world' > file.txt
+           $ git add .
+           $ git commit -a -m "initial commit"
+           [master (root-commit) 54196cc] initial commit
+            1 file changed, 1 insertion(+)
+            create mode 100644 file.txt
+           $ echo 'hello world!' >file.txt
+           $ git commit -a -m "add emphasis"
+           [master c4d59f3] add emphasis
+            1 file changed, 1 insertion(+), 1 deletion(-)
+  
+$ git cat-file -t 54196cc2
+           commit
+           $ git cat-file commit 54196cc2
+           tree 92b8b694ffb1675e5975148e1121810081dbdffe
+           author J. Bruce Fields <bfields@puzzle.fieldses.org> 1143414668 -0500
+           committer J. Bruce Fields <bfields@puzzle.fieldses.org> 1143414668 -0500
+
+           initial commit
+
+$ git ls-tree 92b8b694
+           100644 blob 3b18e512dba79e4c8300dd08aeb37f8e728b8dad    file.txt
+
+$ git cat-file -t 3b18e512
+           blob
+
+$ git cat-file blob 3b18e512
+           hello world
+
+
+Note that this is the old file data; so the object that Git named in its
+       response to the initial tree was a tree with a snapshot of the directory
+       state that was recorded by the first commit.
+
+       All of these objects are stored under their SHA-1 names inside the Git
+       directory:
+
+           $ find .git/objects/
+
+The simplest commit to find is the HEAD commit, which we can find from
+       .git/HEAD:
+
+           $ cat .git/HEAD
+           ref: refs/heads/master
+this tells us which branch we're currently on
+
+$ cat .git/refs/heads/master
+           c4d59f390b9cfd4318117afde11d601c1085f241
+           $ git cat-file -t c4d59f39
+           commit
+           $ git cat-file commit c4d59f39
+           tree d0492b368b66bdabf2ac1fd8c92b39d3db916e59
+           parent 54196cc2703dc165cbd373a65a4dcf22d50ae7f7
+           author J. Bruce Fields <bfields@puzzle.fieldses.org> 1143418702 -0500
+           committer J. Bruce Fields <bfields@puzzle.fieldses.org> 1143418702 -0500
+
+           add emphasis
+
+       The "tree" object here refers to the new state of the tree:
+
+           $ git ls-tree d0492b36
+           100644 blob a0423896973644771497bdc03eb99d5281615b51    file.txt
+           $ git cat-file blob a0423896
+           hello world!
+
+       and the "parent" object refers to the previous commit:
+
+           $ git cat-file commit 54196cc2
+           tree 92b8b694ffb1675e5975148e1121810081dbdffe
+           author J. Bruce Fields <bfields@puzzle.fieldses.org> 1143414668 -0500
+           committer J. Bruce Fields <bfields@puzzle.fieldses.org> 1143414668 -0500
+
+           initial commit
+
+So now we know how Git uses the object database to represent a project's
+       history:
+
+       o   "commit" objects refer to "tree" objects representing the snapshot of a
+           directory tree at a particular point in the history, and refer to
+           "parent" commits to show how they're connected into the project
+           history.
+
+       o   "tree" objects represent the state of a single directory, associating
+           directory names to "blob" objects containing file data and "tree"
+           objects containing subdirectory information.
+
+       o   "blob" objects contain file data without any other structure.
+
+       o   References to commit objects at the head of each branch are stored in
+           files under .git/refs/heads/.
+
+       o   The name of the current branch is stored in .git/HEAD.
+
+
+
+
+
+
+
+
+

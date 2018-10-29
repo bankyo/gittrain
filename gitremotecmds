@@ -26,4 +26,5 @@ git remote rm nu - to remove a remote repository
 git fetch origin
 git config --get remote.origin.url
 
-git push --all - specify  bankyo wEm-9TV-FYu-oX6
+git push --all #specify  bankyo wEm-9TV-FYu-oX6
+https://github.com/bankyo/gittrain.git

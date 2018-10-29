@@ -1,0 +1,4 @@
+vi <filename>
+i (insert mode)
+<Esc> (leave insert mode)
+:wq <Return> (save changes and exit vi)

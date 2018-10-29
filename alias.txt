@@ -1,0 +1,6 @@
+git config --global
+
+alias.ta 'tag -a'		git ta
+alias.br branch			git br
+alias.cm commit			git cm
+alias.last 'log -1 HEAD'	git last
