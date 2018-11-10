@@ -1,0 +1,49 @@
+Using tags for version control
+
+git tag -a v1.0.1 -m "Version 1.0.1"		-create an annotated tag
+git tag v1.0.1					-create a lightweight tag which acts as a point
+git tag -a v.1.0.0 4682c32			-add tag to an older commit by specifying part of its commit checksum
+git tag						-list all tags
+git tag -l "v1.0*"				-search for specific tags
+git push origin v1.1.0				-git push remote [tagname] push a tag you want to share remotely
+git push origin --tags				-push all of your tags to the remote server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+git log --since='3 days ago' 				#review commit logs since 3 days ago
+git log v2.43.. curses/					#view only the changes that touch what's in curses/ directory, gitgsince v2.43 tag
