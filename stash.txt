@@ -1,0 +1,20 @@
+Stashing is the action of saving all your dirty files (modified tracked and staged changes) in a  special stack of commits
+
+git status 	-check on modified files
+
+git stash	-temporarily saves all modified tracked files.
+
+git status 	-run to check that your working directory is clean
+
+git stash pop	-to apply and drop the stash
+
+git stash list	-see all your stashed changes
+
+git stash apply	-apply the latest stashed contents.
+
+git stash drop	-discard the most recently stashed files
+
+git stash apply stash@{2}	-apply a specific stash content by ID.
+
+git stash drop stash@{0}	-drop a specific stash content by ID.
+

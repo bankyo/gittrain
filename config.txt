@@ -1,3 +1,34 @@
+Basic Git Configuration
+
+git config --list				#to list all current settings
+git config user.name				#to see a specific setting
+git config --global user.name "Enki"		#to change your identity
+git config --global user.email bankyoged@hotmail.com #to change your email
+git config --global core.editor vim		#change text editor used by Git
+git config --global core.whitespace warn	#warn about whitespace
+git config --global credentialed.helper cached	#save your login details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 https://git-scm.com/book/en/v1/Git-Basics-Getting-a-Git-Repository
 
 git init - Initializing a Repository in an Existing Directory
@@ -14,8 +45,6 @@ $ git rm grit.gemspec
 $ git rm --cached readme.txt
 $ git rm log/\*.log - removes all files that have the .log extension in the log/ directory
 $ git rm \*~ - removes all files that end with ~.
-
-
 
 $ cat .gitignore
 *.[oa]

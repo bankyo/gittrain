@@ -11,7 +11,8 @@ git diff 			#will show conflicts if any, else you are done
 git commit -am 			#will commit the result of the merge
 gitk 				#will show a nice graphical representation of the resulting history
 git branch -d experimental 	#delete the experimental branch
-
+git branch -D experimental 	#force delete the experimental branch
+git branch -m new-branch-name	#to rename the current branch
 
 grow, mark and tweak your common history
    branch     List, create, or delete branches

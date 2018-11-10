@@ -25,6 +25,11 @@ To read git --help tutorial-2 (gittutorial-2)
 To read https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
 7 days pro offer https://www.codecademy.com/courses/learn-the-command-line/lessons/navigation/exercises/ls?action=resume_content_item
 
+Mon 29 Oct 12:27
+Renamed all files with .txt extensions
+Amended names to be more user friendly and short
+Using Enki app to flesh out some of the text files.
+Organising my thoughts as to the best learning approach
 
 
 
