@@ -31,7 +31,22 @@ Amended names to be more user friendly and short
 Using Enki app to flesh out some of the text files.
 Organising my thoughts as to the best learning approach
 
+Mon 04/03/2019 11:54 am
 
+Use agreed tools/techniques for coding and storing code in a GIT library. Use of agreed tools to manage User Stories and Tasks.
+Follow agreed change process to deploy code continuously. Follow change process for change requests to be added to Backlog
+SCRUM – for knowledge acquisition
+Why use GIT instead of ONEDRIVE
+Access remote GIT from anywhere
+What type of files  to store on remote GIT
+Login to remote GIT
+Create folders and files
+Save to remote GIT
+Open remote files
+Update files
+
+remote.txt - contains important remote commands
+workflow of version control.pdf
 
 
 

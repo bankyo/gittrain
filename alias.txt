@@ -1,4 +1,5 @@
 git config --global
+git config -e - open an editor
 
 alias.ta 'tag -a'		git ta
 alias.br branch			git br

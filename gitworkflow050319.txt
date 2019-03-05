@@ -1,0 +1,55 @@
+04/03/2019 12:20 pm Workflow of version control.pdf
+1. git init - start a new project
+1a. git clone <remote-url> - work on an existing project
+2. Modify, rename and delete files or add new ones
+3. git status - what happened since the last commit
+4. git add <filename>, 
+   git remote add origin git@github.com:bankyo/python.git
+   git remote add git https://github.com/bankyo/git.git
+   git remote add xyz https://github.com/us/repo -git remote add <shortname> <url>
+5. git commit -m "message"
+6. git status - to verify changes added to staging area were committed
+7. git log - inspect the commit history
+
+git config --get remote.origin.url - returns url path e.g. https://github.com/bankyo/gittrain.git
+
+Branching and Merging
+1. git branch <new-branch-name> - start a new feature
+   git branch -u origin/scrollfix	-to set current branch to track remote branch scrollfix
+2. git checkout <new-branch-name> - switch contexts
+3. git merge <branch-to-integrate> - first switch to the branch that is supposed to receive these changes. Then call the git merge command with the name of the branch you want to merge
+   git merge origin
+
+Sharing work via the remote repositories
+1. git checkout --track <remote/branch> - track a remote branch
+1a. git push -u <remote> <local branch> - publish a local branch on a remote server
+2. git fetch <remote> - stay up-to-date about remote changes
+   git fetch origin - to fetch from your remote repository origin
+   git fetch --all - to fetch from all your remotes
+   
+3. git pull - integrate new changes from the remote repositories
+   git pull origin - is a command that combines git fetch and git merge
+   
+4. git push - to upload the local changes you made in your current HEAD branch
+   git push -u <remote> <local branch> - publish a local branch on a remote server
+   git push -u origin master - to share your master branch with your origin repository
+   git push --all - specify bankyo wEm-9TV-FYu-oX6  https://github.com/bankyo/gittrain.git
+   git push --set-upstream origin feature - will create a new remote branch called feature
+
+Git --help clone - get help on clone command syntax
+
+git clone https://github.com/bankyo/crptwriter.git - Clone a repository into a new directory
+git clone git://github.com/schacon/grit.git
+git clone /home/alice/project myrepo - This creates a new directory "myrepo" containing a clone of Alice's repository
+alice$ cd /home/alice/project
+alice$ git pull /home/bob/myrepo master - merges the changes from Bob's "master" branch into Alice's current branch
+
+alice$ git fetch /home/bob/myrepo master -Alice can peek at what Bob did without merging first, using the "fetch" command
+alice$ git log -p HEAD..FETCH_HEAD
+$ gitk HEAD..FETCH_HEAD	- If Alice wants to visualize what Bob did since their histories forked
+$ gitk HEAD...FETCH_HEAD - Alice may want to view what both of them did since they forked. She can use three-dot form instead of the two-dot form:
+
+git remote -v 			- from within (a cloned directory)
+
+git remote rename ol nu 	- to rename a remote repository
+git remote rm nu 		- to remove a remote repository
